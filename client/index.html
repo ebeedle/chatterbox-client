@@ -4,14 +4,8 @@
     <meta charset="utf-8">
     <title>chatterbox</title>
     <link rel="stylesheet" href="styles/styles.css">
-<<<<<<< HEAD
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="bower_components/underscore/underscore.js"</script>
-=======
-
-    <!-- dependencies -->
-    <script src="bower_components/underscore/underscore.js"></script>
->>>>>>> f1eb798194c320b80db9ffaf48977f67060f13db
     <script src="bower_components/jquery/dist/jquery.js"></script>
     <script>
       // YOU DO NOT NEED TO EDIT THIS CODE
@@ -30,24 +24,21 @@
   </head>
   <body>
     <div id="main">
-
       <h1>chatterbox</h1>
-
-      <div id='roomSelect'> Rooms </div>
-
-      <div class='friend'> myFriends </div>
       <!-- Your HTML goes here! -->
-<<<<<<< HEAD
     <div id="roomSelect"></div>
-=======
-      <button type="button" class="username">Username</button>
-
-    </div>
-    
->>>>>>> f1eb798194c320b80db9ffaf48977f67060f13db
+    <form action = "#" id="send" method="post">
+    <input type="text" name="message" id="message">
+    <input type="submit" name="submit" class="submit">
+    </form>
     <div id="chats"></div>
 
       </div>
     <div class="friends"></div>
+    <script>
+      $(document).ready(function(){
+        app.init()
+      })
+    </script>
   </body>
 </html>
