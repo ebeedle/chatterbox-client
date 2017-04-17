@@ -23,14 +23,18 @@
     <script src="scripts/app.js"></script>
   </head>
   <body>
+    <a href="#" class="refresh"> Refresh </a>
     <div id="main">
       <h1>chatterbox</h1>
       <!-- Your HTML goes here! -->
-    <div id="roomSelect"></div>
+    <select id="roomSelect">
+      <option> Create Own Room </option>
+      </select> 
     <form action = "#" id="send" method="post">
     <input type="text" name="message" id="message">
     <input type="submit" name="submit" class="submit">
     </form>
+    <div id="friends"> Friends </div>
     <div id="chats"></div>
 
       </div>
